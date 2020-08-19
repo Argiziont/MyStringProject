@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace MyStringProject
 {
-    class MyString
+    public class MyString
     {
         public char[] CharArray { get { return CharList.ToArray(); } private set { } }
         public int Length { get { return CharList.Count; } private set { } }
